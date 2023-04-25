@@ -1,0 +1,294 @@
+@media screen and (min-width: 1024px) {
+    .body {
+        background-color: #061121;
+    }
+
+    .centered {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .title {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .button1 {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text {
+        color: #F4D247;
+        font-family: Roboto Medium;
+    }
+
+    .title2 {
+        text-align: left;
+        word-wrap: break-word;
+        margin-left: 10%;
+        width: 950px;
+        font-family: Roboto Medium;
+    }
+
+
+    .card {
+        width: 90%;
+        height: 110%;
+        border-radius: 20px;
+        padding: 5px;
+
+        background-image: linear-gradient(144deg, #2A1B34FF, #2A1B34FF 50%, #2A1B34FF);
+    }
+
+    .left {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .centered3 {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container3 {
+        position: relative;
+        text-align: right;
+        color: white;
+    }
+
+    .buttonphase3 {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+
+    }
+
+
+    .col1-wrap {
+        display: table;
+        width: 100%;
+    }
+
+    .col1 {
+        display: table-cell;
+        padding: 1rem;
+        width: 500px;
+    }
+
+    .containerTrust {
+
+        color: white;
+        margin-left: 350px;
+    }
+
+    #timHieuCoHoi {
+        width: 43%;
+    }
+
+    #gioithieu1 {
+        text-align: center;
+        margin-left: 17%;
+        width: 72%
+    }
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background-color: #1C2A41;
+}
+
+#main-menu {
+    display: flex;
+}
+
+nav #main-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+}
+
+nav #main-menu li:hover a {
+    background: #c23616;
+    transition: all 0.3s;
+}
+
+#toggle {
+    display: none;
+    background: #353b48;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #main-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #imageMenu {
+        margin-left: 40%;
+    }
+
+    .body {
+        background-color: #061121;
+    }
+    .centered {
+        position: absolute;
+        top: 0%;
+    }
+
+    .container {
+        position: relative;
+        color: white;
+    }
+
+
+    .title {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+
+    /*.button1 {*/
+    /*    position: absolute;*/
+    /*    top: 30%;*/
+    /*    left: 50%;*/
+    /*    transform: translate(-50%, -50%);*/
+    /*}*/
+
+    .text {
+        color: #F4D247;
+        font-family: Roboto Medium;
+    }
+
+    .title2 {
+        text-align: left;
+        word-wrap: break-word;
+        font-family: Roboto Medium;
+    }
+
+
+    .card {
+        width: 100%;
+        height: 110%;
+        border-radius: 20px;
+        padding: 5px;
+        background-image: linear-gradient(144deg, #2A1B34FF, #2A1B34FF 50%, #2A1B34FF);
+    }
+
+    .left {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    /*.centered3 {*/
+    /*    position: absolute;*/
+    /*    top: 20%;*/
+    /*    left: 20%;*/
+    /*    transform: translate(-50%, -50%);*/
+    /*}*/
+
+    /*.container3 {*/
+    /*    position: relative;*/
+    /*    text-align: right;*/
+    /*    color: white;*/
+    /*}*/
+
+    /*.buttonphase3 {*/
+    /*    position: absolute;*/
+    /*    top: 20%;*/
+    /*    left: 20%;*/
+
+    /*}*/
+
+
+    /*.col1-wrap {*/
+    /*    display: table;*/
+    /*    width: 100%;*/
+    /*}*/
+
+    /*.col1 {*/
+    /*    display: table-cell;*/
+    /*    padding: 1rem;*/
+    /*    width: 500px;*/
+    /*}*/
+
+    /*.containerTrust {*/
+
+    /*    color: white;*/
+    /*    margin-left: 350px;*/
+    /*}*/
+
+    /*.bodyText {*/
+    /*    width: 120%;*/
+    /*    word-wrap: break-word;*/
+
+    /*}*/
+
+    /*#timHieuCoHoi {*/
+    /*    width: 53%;*/
+    /*}*/
+
+    /*.container2 {*/
+    /*    position: relative;*/
+    /*    text-align: left;*/
+    /*    color: white;*/
+    /*}*/
+
+ 
+
+
+}
+
+
+
+
+
+
+
+
+
+
